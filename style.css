@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: black;
+}
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade{
+    background: linear-gradient(to right, hsl(17, 99%, 50%), #ff6600);
+}
+
+/*ESTILO HEADER */
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    max-width: 200px;
+    margin-bottom: 30px;
+}
+
+header p{
+    font-size: 20px;
+    color: #fff;
+}
+
+header h1{
+    font-size: 4.0em;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 300;
+}
+
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: black;
+    transition: .3s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footer:hover{
+    transform: scale(1.05);
+}
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.btn-footer{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 10px ;
+    transition: .3s;
+    color: black;
+}
